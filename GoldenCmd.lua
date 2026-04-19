@@ -10526,7 +10526,7 @@ Command.Add({
 	Description = "Opens Movement Gui",
 	Arguments = {},
 	Task = function()
-		loadstring(game:HttpGet("https://github.com/Senastion/Golden-Softworks/raw/main/Golden%20Movement.luau"))();
+		loadstring(game:HttpGet("https://github.com/Senastion/Golden-Softworks/raw/main/golden%20movement.luau"))();
 	end,
 })
 
