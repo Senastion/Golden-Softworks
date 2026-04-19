@@ -10526,7 +10526,7 @@ Command.Add({
 	Description = "Opens Movement Gui",
 	Arguments = {},
 	Task = function()
-		loadstring(game:HttpGet("https://github.com/NormalZyoherion/leaf-scripts/raw/main/p-obfuscated.lua.txt"))();
+		loadstring(game:HttpGet("https://github.com/Senastion/Golden-Softworks/raw/main/Golden%20Movement.luau"))();
 	end,
 })
 
