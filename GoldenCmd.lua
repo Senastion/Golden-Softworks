@@ -34,7 +34,7 @@ local Settings = ({
 	Prefix = (";"),
 	ChatPrefix = ("!"),
 	Seperator = (","),
-	Version = ("1.0.9"),
+	Version = ("1.01"),
 	CustomUI = (Cmd().CustomUI or "rbxassetid://127095266446147"),
 
 	Aliases = ({}),
@@ -51,22 +51,34 @@ local Settings = ({
 -- oieiei toibingu yes is jt yeahh
 Theme = ({
     Mode = "Dark",
-    Transparency = 0.14,
+    Transparency = 0.11,
 
-    Primary = Color3.fromRGB(15, 15, 15),
-    Secondary = Color3.fromRGB(35, 35, 35),
-    Actions = Color3.fromRGB(100, 100, 100),
-    Component = Color3.fromRGB(25, 25, 25),
-    Highlight = Color3.fromRGB(220, 220, 220),
-    ScrollBar = Color3.fromRGB(50, 50, 50),
+    -- Background GUGU GAGA
+    Primary = Color3.fromRGB(10, 10, 12),
+    Secondary = Color3.fromRGB(25, 25, 28),
 
+    -- Button gugu gaga
+    Actions = Color3.fromRGB(180, 150, 60),
+
+    -- Component yes goldencmd
+    Component = Color3.fromRGB(30, 30, 35),
+
+    -- Highlight
+    Highlight = Color3.fromRGB(212, 175, 55),
+
+    -- Scrollbar
+    ScrollBar = Color3.fromRGB(60, 60, 65),
+
+    -- Text
     Title = Color3.fromRGB(240, 240, 240),
-    Description = Color3.fromRGB(160, 160, 160),
+    Description = Color3.fromRGB(170, 170, 170),
 
+    -- Shadow & border
     Shadow = Color3.fromRGB(0, 0, 0),
-    Outline = Color3.fromRGB(70, 70, 70),
+    Outline = Color3.fromRGB(120, 100, 40),
 
-    Icon = Color3.fromRGB(240, 240, 240),
+    -- Icon
+    Icon = Color3.fromRGB(230, 230, 230),
 }),
 	
 	Toggles = ({
